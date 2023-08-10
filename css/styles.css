@@ -1,32 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<title>Portfolio CSS</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Portfolio CSS</title>
+  <meta name="description" content="A site that showcases my work.>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <style>
+
 body {
-	color: green;
-	font-family: Open Sans, sans-serif;
+	color: black;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px
 	}
+
 h1 {
 	color: black;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 36px
 	}
+
 h2 {
 	color: black;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 28px
 	}
+
 h3 {
 	color: #4D4D4D;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 22px
 	}
+
 h4 {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 20px;
 	padding: 0px;
 	margin-bottom: 0px;
@@ -34,18 +44,20 @@ h4 {
 	
 p {
   color: black;
-  font-family: Open Sans, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px
 }
+
 ul {
 	color: black;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.8em
 }
+
 ol {
 	color: black;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px
 }
 
@@ -66,7 +78,7 @@ ol {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-family: Open Sans, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
   color: #818181;
   display: block;
@@ -97,7 +109,7 @@ ol {
 .footer {
 	color: black;
 	margin-top: 40px;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 12px
 }
 
@@ -105,7 +117,7 @@ ol {
   margin-left: 250px; /* Same as the width of the sidenav */
   margin-right: 320px;
   padding: 0px 10px;
-  font-family: Open Sans, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px
 }
 	
@@ -119,7 +131,7 @@ input[type=text], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-family: Open Sans, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px
 }
 
@@ -131,7 +143,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: Open Sans, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px
   
 }
@@ -147,5 +159,7 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
 </style>
+
 </head>
